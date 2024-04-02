@@ -3,7 +3,7 @@ import "../styles/Segments.css";
 import { segmentsData } from "../auxiliars/MyConsts";
 
 const Segments = () => {
-    const [selectedOption, setSelectedOption] = useState("Otakus");
+    const [selectedOption, setSelectedOption] = useState("Inquilinos");
     const handleOptionClick = (option) => {setSelectedOption(option);};
     const isOptionSelected = (option) => option === selectedOption;
 
@@ -14,27 +14,22 @@ const Segments = () => {
     return (       
         <div id="skills">            
             <div className="skills-container">
-                <div className="skills-title">Akira se enfoca en tres públicos</div>
+                <div className="skills-title">RentState se enfoca en dos públicos</div>
                 <div className="skills-options">                   
                    
                     <p
-                        className={`skills-option ${isOptionSelected("Otakus") && "selected"}`}
-                        onClick={() => handleOptionClick("Otakus")}
+                        className={`skills-option ${isOptionSelected("Inquilinos") && "selected"}`}
+                        onClick={() => handleOptionClick("Inquilinos")}
                     >
-                        Otakus
+                        Inquilinos
                     </p>
                     <p
-                        className={`skills-option ${isOptionSelected("Kpopers") && "selected"}`}
-                        onClick={() => handleOptionClick("Kpopers")}
+                        className={`skills-option ${isOptionSelected("Propietarios") && "selected"}`}
+                        onClick={() => handleOptionClick("Propietarios")}
                     >
-                        Kpopers
+                        Propietarios
                     </p>
-                    <p
-                        className={`skills-option ${isOptionSelected("Sellers") && "selected"}`}
-                        onClick={() => handleOptionClick("Sellers")}
-                    >
-                        Vendedores
-                    </p>                        
+                                      
                 </div>
                 <div className="skills-grid">
                     

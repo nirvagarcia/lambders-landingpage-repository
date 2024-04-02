@@ -34,7 +34,7 @@ const Lambders = () => {
                <div>
                     <img
                         src="assets/LambdersCuadrado.png"
-                        alt="Akira"
+                        alt="RentState"
                         style={{ height: '30rem', marginLeft: 16, padding: 10 }}
                     />
                </div>
@@ -43,7 +43,7 @@ const Lambders = () => {
 
                     <div style={{ display: 'block', marginLeft: '2rem', justifyContent: 'center' }}>
                         <div className="lambders-title">Presentamos a 
-                        <span style={{fontWeight: 'bolder', color: '#AA1D1D'}}> Lambders</span>
+                        <span style={{fontWeight: 'bolder', color: '#225E7C'}}> Lambders</span>
                         </div>
                         <div className="lambders-text">Startup peruano de tecnología y e-commerce, que acerca al increíble mundo asiático hasta tu hogar.</div>
 

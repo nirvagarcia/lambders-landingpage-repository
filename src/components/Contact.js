@@ -61,7 +61,7 @@ const Contact = () => {
                     >
                         <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
                             <div className="card-text">Email</div>
-                            <div className="card-text">akira@lambders.com</div>
+                            <div className="card-text">RentState@lambders.com</div>
                             <img  style={{height: '1.2em', marginTop: '1rem'}} src="/assets/email.png" alt="WhatsApp" />
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Contact = () => {
                 </div>
 
                 <div className="contact-text-inputs">
-                    <div className="contact-title">Únete a la Comunidad Akira</div>
+                    <div className="contact-title">Únete a la Comunidad RentState</div>
                         
                         <div className="contact-right" style={{width:"40vw", textAlign: 'left'}}>
 
@@ -106,7 +106,7 @@ const Contact = () => {
                                     value={email}
                                     onChange={handleEmailChange}
                                 />
-                                {!validEmail && <div style={{ color: '#c42e2e', margin: "0.5rem 0 0 0.5rem", fontSize:'1rem' }}>E-mail no válido</div>}
+                                {!validEmail && <div style={{ color: '#286b8c', margin: "0.5rem 0 0 0.5rem", fontSize:'1rem' }}>E-mail no válido</div>}
 
                                 <div style={{display:'flex', gap:'1rem', width:'100%'}}>
                                 <input
@@ -152,7 +152,7 @@ const Contact = () => {
                                         Su correo se ha enviado satisfactoriamente
                                         </DialogContent>
                                         <DialogActions>
-                                            <div onClick={() => setShowNotification(false)} style={{ color: '#AA1D1D', textTransform: 'none', fontSize: '0.9rem', paddingTop: 0, cursor: 'pointer', marginRight:'0.5rem', marginBottom: '0.3rem' }}>
+                                            <div onClick={() => setShowNotification(false)} style={{ color: '#225E7C', textTransform: 'none', fontSize: '0.9rem', paddingTop: 0, cursor: 'pointer', marginRight:'0.5rem', marginBottom: '0.3rem' }}>
                                                 Cerrar
                                             </div>
                                         </DialogActions>
@@ -175,7 +175,7 @@ const Contact = () => {
                                             border: 'none',
                                             background: 'none',
                                             cursor: 'pointer',
-                                            color: '#c42e2e'
+                                            color: '#286b8c'
                                         }}
                                         onClick={() => {
                                             setShowNotification(true);

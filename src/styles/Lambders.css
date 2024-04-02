@@ -44,14 +44,14 @@
     border-radius: 30px;
     transition: all 0.3s;
     cursor: pointer;
-    background-color: #AA1D1D;
-    border: 2px solid #AA1D1D;
+    background-color: #225E7C;
+    border: 2px solid #225E7C;
     color: white;
     width: max-content;
 }
 
 .general-button:hover {
-    background-color: #c42e2e;
+    background-color: #286b8c;
     transition: all 0.3s;   
     color: white;
 }

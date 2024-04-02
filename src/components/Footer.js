@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="footer-tittle">
                         <img 
                             src="assets/LogoHeadLetters.png" 
-                            alt="Akira"                            
+                            alt="RentState"                            
                         />
                     </div>
                     <div className="footer-links">
@@ -58,7 +58,7 @@ const Footer = () => {
                         <h3>Q&As</h3>
                         <ul>
                             <li><a href="https://www.d-addicts.com/forums/index.php" target="_blank" rel="noopener noreferrer">Kpop Fandom</a></li>
-                            <li><a href="https://www.d-addicts.com/forums/index.php" target="_blank" rel="noopener noreferrer">Otakus Society</a></li>
+                            <li><a href="https://www.d-addicts.com/forums/index.php" target="_blank" rel="noopener noreferrer">Inquilinos Society</a></li>
                             <li><a href="https://www.d-addicts.com/forums/index.php" target="_blank" rel="noopener noreferrer">Vendedores</a></li>
                         </ul>
                     </div>
@@ -66,9 +66,9 @@ const Footer = () => {
                         <div className="footer-column">
                             <h3>Descarga</h3>
                             <ul>
-                                <li><a href="https://apps.apple.com/be/app/akira/id6458584519" target="_blank" rel="noopener noreferrer">Akira iOS</a></li>
-                                <li><a href="https://play.google.com/store/apps/details?id=com.alaeat.customer.android.akira&hl=en&gl=US" target="_blank" rel="noopener noreferrer">Akira Android</a></li>
-                                <li><a href="https://www.shopakira.com/about-us" target="_blank" rel="noopener noreferrer">Akira Web</a></li>
+                                <li><a href="https://apps.apple.com/be/app/RentState/id6458584519" target="_blank" rel="noopener noreferrer">RentState iOS</a></li>
+                                <li><a href="https://play.google.com/store/apps/details?id=com.alaeat.customer.android.RentState&hl=en&gl=US" target="_blank" rel="noopener noreferrer">RentState Android</a></li>
+                                <li><a href="https://www.shopakira.com/about-us" target="_blank" rel="noopener noreferrer">RentState Web</a></li>
                             </ul>
                         </div>
 
@@ -112,7 +112,7 @@ const Footer = () => {
                         {openDialog === "Términos" && (
                             <div>
                                 <p>
-                                    Bienvenido a Akira, tu destino para el mejor merchandising de Kpop, anime y manga en Perú.
+                                    Bienvenido a RentState, tu destino para el mejor merchandising de Kpop, anime y manga en Perú.
                                     Al utilizar nuestro sitio web, aceptas cumplir con los siguientes términos y condiciones:
                                 </p>
                                 <ul>
@@ -122,7 +122,7 @@ const Footer = () => {
                                     <li>Reservamos el derecho de cambiar los términos y condiciones en cualquier momento sin previo aviso.</li>
                                 </ul>
                                 <p>
-                                    Gracias por elegir Akira para satisfacer tus necesidades de merchandising asiático. ¡Disfruta de tu experiencia de compra!
+                                    Gracias por elegir RentState para satisfacer tus necesidades de merchandising asiático. ¡Disfruta de tu experiencia de compra!
                                 </p>
                             </div>
                         )}
@@ -139,14 +139,14 @@ const Footer = () => {
                                     <li>Tu información personal está protegida mediante medidas de seguridad físicas, electrónicas y administrativas.</li>
                                 </ul>
                                 <p>
-                                    Esperamos que esta política de privacidad te brinde la tranquilidad de que tus datos están en buenas manos mientras compras en Akira.
+                                    Esperamos que esta política de privacidad te brinde la tranquilidad de que tus datos están en buenas manos mientras compras en RentState.
                                 </p>
                             </div>
                         )}
                         {openDialog === "Seguridad" && (
                             <div>
                                 <p>
-                                    La seguridad de nuestros clientes es una prioridad en Akira. Aquí te explicamos las medidas que tomamos para proteger tu información:
+                                    La seguridad de nuestros clientes es una prioridad en RentState. Aquí te explicamos las medidas que tomamos para proteger tu información:
                                 </p>
                                 <ul>
                                     <li>Utilizamos cifrado SSL para proteger tus datos mientras navegas y realizas transacciones en nuestro sitio web.</li>
@@ -176,7 +176,7 @@ const Footer = () => {
 
                     </DialogContent>
                     <DialogActions>
-                        <Button onClick={handleCloseDialog} style={{ color: '#AA1D1D', textTransform: 'none', fontSize: '0.9rem', paddingTop: 0 }}>
+                        <Button onClick={handleCloseDialog} style={{ color: '#225E7C', textTransform: 'none', fontSize: '0.9rem', paddingTop: 0 }}>
                             Cerrar
                         </Button>
                     </DialogActions>
