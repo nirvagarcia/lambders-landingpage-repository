@@ -37,7 +37,7 @@ const Segments = () => {
                     <div key={index} className={`skill-item ${isOptionSelected(skill.type) && "selected"}`}>
                         <img src={skill.image} alt={skill.description} className="skills-image" loop />   
                         <div className="skill-text"></div>
-                        <img style={{height: "30px"}} src={skill.imagetype} alt={skill.description} className="skills-text" />               
+                        <div className="skill-title">{skill.type}</div>
                         <div className="skill-text">{skill.description}</div>
                     </div>
                 ))}

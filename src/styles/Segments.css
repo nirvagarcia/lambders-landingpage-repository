@@ -88,6 +88,13 @@
     color: var(--text);     
 }
 
+.skill-title {
+    font-size: 30px;
+    margin-bottom: 4px; 
+    color: #225E7C;   
+    font-weight: bold;  
+}
+
 @media only screen and (max-width: 600px) {  
     #skills {
         padding: 25%  5%;

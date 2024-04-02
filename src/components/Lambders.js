@@ -8,12 +8,10 @@ import CloseIcon from '@mui/icons-material/Close';
 const Lambders = () => {
 
     const images = [
-        'assets/carrusel-1.jpeg',
         'assets/carrusel-0.jpeg',
         'assets/carrusel-7.jpeg',    
         'assets/carrusel-2.jpeg',     
         'assets/carrusel-5.jpeg',
-        'assets/carrusel-4.jpeg',     
     ];
     const [open, setOpen] = useState(false);
 
@@ -45,7 +43,7 @@ const Lambders = () => {
                         <div className="lambders-title">Presentamos a 
                         <span style={{fontWeight: 'bolder', color: '#225E7C'}}> Lambders</span>
                         </div>
-                        <div className="lambders-text">Startup peruano de tecnología y e-commerce, que acerca al increíble mundo asiático hasta tu hogar.</div>
+                        <div className="lambders-text">Startup peruano de tecnología, que transforma tu experiencia al encontrar inmuebles</div>
 
                         <div className="general-button"  onClick={handleOpenDialog}>
                             <p>Ver fotos del Startup</p>

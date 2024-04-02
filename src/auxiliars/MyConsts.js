@@ -1,14 +1,14 @@
 const segmentsData = [
     {
         type: "Inquilinos",
-        description: "Fanáticos de las animaciones japonesas",
-        image: "assets/seller3.gif",  
+        description: "Interesados en alquilar Inmuebles",
+        image: "assets/inquilinos.png",  
         imagetype: "assets/otakusLetters.png"    
     },
     {
         type: "Propietarios",
-        description: "Amantes de los idols y el pop coreano",
-        image: "assets/seller3.gif",  
+        description: "Propietarios de inmuebles que quieren arrendar",
+        image: "assets/propietarios.png",  
         imagetype: "assets/vendedoresLetters.png"         
     },  
    

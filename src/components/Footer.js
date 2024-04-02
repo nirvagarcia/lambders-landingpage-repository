@@ -67,7 +67,7 @@ const Footer = () => {
                         <div className="footer-column">
                             <h3>Descarga</h3>
                             <ul>
-                                <li><a href="https://www.shopakira.com/about-us" target="_blank" rel="noopener noreferrer">RentState Web</a></li>
+                                <li><a href="https://renstate-aedf7.web.app/home" target="_blank" rel="noopener noreferrer">RentState Web</a></li>
                                 <li><a href="https://apps.apple.com/be/app/RentState/id6458584519" target="_blank" rel="noopener noreferrer">RentState iOS</a></li>
                                 <li><a href="https://play.google.com/store/apps/details?id=com.alaeat.customer.android.RentState&hl=en&gl=US" target="_blank" rel="noopener noreferrer">RentState Android</a></li>
                             </ul>

@@ -60,8 +60,8 @@ const Contact = () => {
                         }}
                     >
                         <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
-                            <div className="card-text">Email</div>
-                            <div className="card-text">RentState@lambders.com</div>
+                            <div className="card-text">Correo</div>
+                            <div className="card-text">rentstate@lambders.com</div>
                             <img  style={{height: '1.2em', marginTop: '1rem'}} src="/assets/email.png" alt="WhatsApp" />
                         </div>
                     </div>
@@ -69,7 +69,7 @@ const Contact = () => {
                     <div 
                         className={"card-styles"}
                         onClick={() => {
-                            window.open("https://github.com/CC238-Grupo2-WX61-Apps-Moviles", "_blank");
+                            window.open("https://github.com/SI657-Grupo2-WX71-Arquitectura-Software", "_blank");
                         }}
                     >
                         <div className="contact-card" style={{textDecoration: 'none', color:'#575757'}} >
