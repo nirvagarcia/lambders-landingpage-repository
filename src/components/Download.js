@@ -20,7 +20,7 @@ const DownloadAkira = () => {
                 </div>
 
                 <div className="download-img" >
-                    <img  src="/assets/downloadAkira.png" alt="WhatsApp" />
+                    <img  src="/assets/RentStateBanner.png" alt="WhatsApp" />
                 </div>   
 
                 <div className="buttons-download2">                     

@@ -11,7 +11,7 @@ return (
 			</div>
 
 			<div className="home-avatar"  >
-				<img src="assets/RentStateBanner.png" alt="Avatar" />
+				<img src="assets/safariRentstate.png" alt="Avatar" />
 			</div>							 
 			
 			<div className="home-desc">
