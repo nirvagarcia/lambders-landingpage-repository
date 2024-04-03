@@ -47,7 +47,7 @@
 
 .home-desc {  
   font-size: 20px;
-  margin: 0 4%;
+  margin: 1rem 4% 0rem 4%;
   color: var(--text)
 }
 
