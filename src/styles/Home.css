@@ -94,14 +94,14 @@
  
   .home-desc {
     font-size: 16px;
-    margin: 20px 4%;
+    margin: 20px 8%;
   }
 
   .home-desc img {
     width: 15px;
   }  
   .home-button {
-    margin-left: 0;  
+    margin-top: 8px;
     font-size: 1rem; 
 }
 }

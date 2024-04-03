@@ -32,7 +32,7 @@ const Contact = () => {
     };
 
     useEffect(() => {
-        validateInputs();
+        validateInputs();// eslint-disable-next-line 
     }, [email, validEmail, nombre, apellido]);
 
     return (       

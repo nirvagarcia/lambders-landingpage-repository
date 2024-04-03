@@ -7,7 +7,6 @@ const links = [
     { key: "lambders", text: "Startup" },
     { key: "goRentstate", text: "RentState" },
     { key: "contact", text: "Contáctanos" },
-
 ];
 
 return (
