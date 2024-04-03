@@ -30,7 +30,7 @@ const Footer = () => {
     };
 
     const redirectToGitHub = () => {
-        window.open("https://github.com/CC238-Grupo2-WX61-Apps-Moviles", "_blank");
+        window.open("https://github.com/SI657-Grupo2-WX71-Arquitectura-Software", "_blank");
     };
 
     return (
@@ -49,9 +49,9 @@ const Footer = () => {
                         <div className="footer-column">
                             <h3>Soporte</h3>
                             <ul>
-                                <li><a href="#1" onClick={() => handleOpenDialog("Soporte")}>Centro de Ayuda</a></li>
-                                <li><a href="#1" onClick={() => handleOpenDialog("Soporte")}>Soporte Técnico</a></li>
-                                <li><a href="#1" onClick={() => handleOpenDialog("Soporte")}>Reclamaciones</a></li>
+                                <li><a href="#Soporte" onClick={() => handleOpenDialog("Soporte")}>Centro de Ayuda</a></li>
+                                <li><a href="#Soporte" onClick={() => handleOpenDialog("Soporte")}>Soporte Técnico</a></li>
+                                <li><a href="#Soporte" onClick={() => handleOpenDialog("Soporte")}>Reclamaciones</a></li>
                             </ul>
                         </div>
                         <div className="footer-column">

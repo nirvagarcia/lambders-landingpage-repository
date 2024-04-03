@@ -5,7 +5,7 @@
     box-sizing: border-box;  
     align-items: center;
     justify-content: center;
- 
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,14 +44,15 @@
     border-radius: 30px;
     transition: all 0.3s;
     cursor: pointer;
-    background-color: #225E7C;
-    border: 2px solid #225E7C;
+    background-color: #1a465d;
+    border: 2px solid #1a465d;
     color: white;
     width: max-content;
 }
 
 .general-button:hover {
-    background-color: #286b8c;
+    background-color: #1e5570;
+    border: 2px solid #1e5570;
     transition: all 0.3s;   
     color: white;
 }

@@ -1,5 +1,5 @@
 #skills {
-    padding: 8rem 0rem;    
+    padding: 0rem 0rem 8rem 0rem;    
     cursor:default;
     max-width: 1100px;   
     box-sizing: border-box;  
@@ -52,8 +52,8 @@
 
 
 .skills-option.selected {
-    background-color: #225E7C;
-    border: 2px solid #225E7C;
+    background-color: #1a465d;
+    border: 2px solid #1a465d;
     color: white;
     transition: all 0.3s;    
 }
@@ -91,7 +91,7 @@
 .skill-title {
     font-size: 30px;
     margin-bottom: 4px; 
-    color: #225E7C;   
+    color: #1a465d;   
     font-weight: bold;  
 }
 

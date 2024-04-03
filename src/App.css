@@ -1,5 +1,6 @@
 html {
   scroll-behavior: smooth;
+
 }
 
 body {
@@ -13,6 +14,7 @@ body {
 
 .App {
   text-align: center;
+  
 }
 
 

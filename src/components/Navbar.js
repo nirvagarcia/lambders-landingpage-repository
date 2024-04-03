@@ -1,12 +1,11 @@
 import React from "react";
 import "../styles/Navbar.css";
-import HomeIcon from '@mui/icons-material/Home';
 import { IconButton } from "@mui/material";
 
 const Navbar = () => {
 const links = [
     { key: "lambders", text: "Startup" },
-    { key: "downloadAkira", text: "RentState" },
+    { key: "goRentstate", text: "RentState" },
     { key: "contact", text: "Contáctanos" },
 
 ];
@@ -19,7 +18,8 @@ return (
 
             <a href="#home" className="home-icon">
                 <IconButton aria-label="home" style={{padding:'0rem'}}>
-                <HomeIcon sx={{ color: 'black' }} />
+                    <img style={{height: '2rem'}} src="/assets/LogoWhiteHouse.png" alt="WhatsApp" />
+
                 </IconButton>
             </a>
 

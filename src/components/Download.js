@@ -1,20 +1,21 @@
 import React from "react";
-import "../styles/DownloadAkira.css";
+import "../styles/GoRentstate.css";
 
 
-const DownloadAkira = () => {    
+const Download = () => {    
     return (       
-        <div id="downloadAkira"> 
+        <div id="goRentstate"> 
 
-            <div className="downloadAkira-container">
+            <div className="goRentstate-container">
 
                 <div className="i" >
 
-                    <p style={{fontWeight: '500'}}>Descarga la App <span style={{color:'#225E7C'}}>RentState</span> Mobile</p>
+                    <p style={{fontWeight: '400', margin: '0'}}>Prueba la Web <span style={{color:'#225E7C',fontWeight: '500'}}>RentState</span></p>
 
-                    <div className="buttons-download">                     
-                        <img onClick={() => { window.open("https://play.google.com/store/apps/details?id=com.alaeat.customer.android.RentState&hl=en&gl=US", "_blank"); }} src="/assets/googleplay.png" alt="WhatsApp" />
-                        <img onClick={() => { window.open("https://apps.apple.com/be/app/RentState/id6458584519", "_blank"); }} src="/assets/appstore.png" alt="WhatsApp" />
+                    <div style={{display:'flex', justifyContent:'center', alignContent:'center', alignItems:'center'}}>
+                        <div className="home-button" onClick={() =>  window.open("https://renstate-aedf7.web.app/home", "_blank")}>
+                            <p>Ir a RentState</p>
+                        </div>
                     </div>
 
                 </div>
@@ -23,11 +24,7 @@ const DownloadAkira = () => {
                     <img  src="/assets/RentStateBanner.png" alt="WhatsApp" />
                 </div>   
 
-                <div className="buttons-download2">                     
-                    <img onClick={() => { window.open("https://play.google.com/store/apps/details?id=com.alaeat.customer.android.RentState&hl=en&gl=US", "_blank"); }} src="/assets/googleplay.png" alt="WhatsApp" />
-                    <img onClick={() => { window.open("https://apps.apple.com/be/app/RentState/id6458584519", "_blank"); }} src="/assets/appstore.png" alt="WhatsApp" />
-                </div>
-               
+            
                         
             </div>
 
@@ -35,4 +32,4 @@ const DownloadAkira = () => {
     );
 };
 
-export default DownloadAkira;
+export default Download;
