@@ -17,7 +17,7 @@ return (
           	</div>
 
 			<div style={{display:'flex', justifyContent:'center', alignContent:'center', alignItems:'center'}}>
-			<div className="home-button" onClick={() =>  window.open("https://renstate-aedf7.web.app/home", "_blank")}>
+			<div className="home-button" onClick={() =>  window.open("https://rentstate.antarticdonkeys.com/login", "_blank")}>
 				<p>Ir a RentState</p>
 			</div>
 			</div>
